@@ -1,0 +1,63 @@
+/*inicio css de tabla de elementos ----------------------------------------------------------------*/
+.hid{
+/*colocado en th/td que esten vacios*/
+border-style: hidden; /*hace que el borde sea transparente*/}
+td, th {
+  border: 1px solid black; /* definición de bordes de tabla*/
+}
+
+/* colores de las celdas - cada celda tienen una clase */
+.rojo_claro{
+    background-color: lightcoral
+}
+.naranja_claro{
+    background-color: lightsalmon
+}
+.amarillo{
+    background-color: yellow;
+}
+.gris{
+    background-color: lightslategray;
+}
+.lima{
+  background-color: lightgreen;
+}
+.morado{
+  background-color: plum;
+}
+.rosa{
+  background-color: pink;
+}
+.azul{
+  background-color: lightseagreen;
+}
+#table1 {
+/*colocado en tabla*/
+border-collapse: separate; /* le da su propio borde a cad celda */
+border-spacing: 0px; /* hace que el espacio entre las celdas sea de 0 px */
+}
+
+td:hover a:link{ /*cambia el color de letra a blanco cuando se pasa sobre la celda*/
+  color: white
+}
+
+td:hover{ /*color de la celda cuando se pasa por encima*/
+  background-color: #031FA2;
+}
+
+.hid:hover{/*color de las clases hidden (celdas invisibles cuando se pasan por encima)*/
+  background-color: white; /* solo funciona porque clase hid toma prioridad*/
+                            /* de ser necesario podrias cambiar todos los td con hid por th's*/
+}
+/*fin css de tabla de elementos ----------------------------------------------------------------*/
+
+/*todos los enlaces son negrita sin subrayado*/
+a{
+  text-decoration: none;/*SIN SUBRAYADO*/
+  font-weight: bold;  /*NEGRITA*/
+  color:black;      /*letra color negro (si se encuentra diferente en otra parte, mover hacia td a{}) */
+}
+a:active {
+  color: black;
+}
+
