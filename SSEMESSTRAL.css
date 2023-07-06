@@ -1,0 +1,137 @@
+/*fondo de pantalla*/
+body{
+  background: #c0ccf5;
+  margin: 0 ;
+}
+
+/*inicio css de tabla de elementos ----------------------------------------------------------------*/
+.hid{
+/*colocado en th/td que esten vacios*/
+border-style: hidden; /*hace que el borde sea transparente*/}
+td, th {
+  border: 1px solid black; /* definición de bordes de tabla*/
+  font-size: x-large;
+}
+
+/* colores de las celdas - cada celda tienen una clase */
+.rojo_claro{
+    background-color: lightcoral
+}
+.naranja_claro{
+    background-color: lightsalmon
+}
+.amarillo{
+    background-color: yellow;
+}
+.gris{
+    background-color: lightslategray;
+}
+.lima{
+  background-color: lightgreen;
+}
+.morado{
+  background-color: plum;
+}
+.rosa{
+  background-color: pink;
+}
+.azul{
+  background-color: lightseagreen;
+}
+#table1 {
+/*colocado en tabla*/
+border-collapse: separate; /* le da su propio borde a cad celda */
+border-spacing: 0px; /* hace que el espacio entre las celdas sea de 0 px */
+margin: auto; /*centrea la tabla*/
+margin-top: 3%;
+}
+
+td:hover a:link{ /*cambia el color de letra a blanco cuando se pasa sobre la celda*/
+  color: white
+}
+
+td:hover{ /*color de la celda cuando se pasa por encima*/
+  background-color: #031FA2;
+}
+
+.hid:hover{/*color de las clases hidden (celdas invisibles cuando se pasan por encima)*/
+  background-color: #c0ccf5; /* solo funciona porque clase hid toma prioridad*/
+                            /* de ser necesario podrias cambiar todos los td con hid por th's*/
+}
+/*fin css de tabla de elementos ----------------------------------------------------------------*/
+
+
+/*Inicio CSS de header - Menú superior*/
+header{
+  background-color: #463ffc;
+  top:0;
+  left: 0;
+  width:100%;
+  height:20%;
+}
+
+header nav{
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+  display:flex;
+}
+
+.LOGO_S{ /*clase del logo*/
+  width:auto;
+  height: 100px;
+  margin-right:auto;
+  margin-left: auto;
+  display:block /*tipo bloque en vez de inline*/
+}
+/*HASTA AHORA SOLO ESTA LO FUNDAMENTAL 5/7/2023*/
+
+/*FIN CSS de header - Menú superior*/
+
+/*INICIO CSS de la pagina soporte - PAGINA SOBRE NOSOTROS*/
+.seccion_contactos{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.seccion_contactos div{
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*FIN CSS de la pagina de soporte - Nuevamente esto solo es lo fundamental*/
+
+/*inicio CSS videos*/
+.seccion_videos{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.seccion_videos div{
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.seccion_videos p{
+  display:inline;
+}
+
+/*final CSS videos*/
+/*todos los enlaces son negrita sin subrayado*/
+a{
+  text-decoration: none;/*SIN SUBRAYADO*/
+  font-weight: bold;  /*NEGRITA*/
+  color:black;      /*letra color negro (si se encuentra diferente en otra parte, mover hacia td a{}) */
+}
+a:active {
+  color: black;
+}
+
