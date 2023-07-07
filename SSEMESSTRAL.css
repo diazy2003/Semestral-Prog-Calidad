@@ -81,9 +81,25 @@ header nav{
   width:auto;
   height: 100px;
   margin-right:auto;
-  margin-left: auto;
+  margin-left: 38.6%;
   display:block /*tipo bloque en vez de inline*/
 }
+
+.LOGO_S2{ /*clase del segundo logo para pagina 1 y de registro de usuario (Bienvenida.html-Usuario_Registro.html)*/
+  width:auto;
+  height: 130px; /*solo es más grande (° _°')*/
+  margin-right:auto;
+  margin-left: auto;
+  display:block;/*also al parecer margin -left y -right : auto solo centrean la imagen si es tipo bloque*/
+}
+
+.iconos{
+  width: 3%;
+  height: auto;
+  float: right;
+  display:block;
+}
+
 /*HASTA AHORA SOLO ESTA LO FUNDAMENTAL 5/7/2023*/
 
 /*FIN CSS de header - Menú superior*/
@@ -125,6 +141,34 @@ header nav{
 }
 
 /*final CSS videos*/
+
+/*CSS de titulos*/
+h1{
+  text-align:center;}
+/*FIN CSS de titulos*/
+
+/*INICIO CSS DE FOOTER*/
+.pie_inicio{
+  width:100%;
+  height:8%; 
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color: #99ccff;
+  text-align:center;}
+
+footer{
+  width:100%;
+  height: 12%; 
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color: #99ccff;
+  text-align:center;
+}
+
+/*FIN CSS DE FOOTER */
+
 /*todos los enlaces son negrita sin subrayado*/
 a{
   text-decoration: none;/*SIN SUBRAYADO*/
