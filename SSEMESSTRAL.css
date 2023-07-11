@@ -144,7 +144,19 @@ header nav{
 
 /*CSS de titulos*/
 h1{
-  text-align:center;}
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif
+}
+/*FIN CSS de titulos*/
+
+/*CSS de formularios*/
+label{
+  font-family:'Courier New', Courier, monospace;
+  color: purple;
+}
 /*FIN CSS de titulos*/
 
 /*INICIO CSS DE FOOTER*/
@@ -167,6 +179,17 @@ footer{
   text-align:center;
 }
 
+footer nav{
+  margin-top: 20px;
+}
+
+footer nav a{ 
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+
 /*FIN CSS DE FOOTER */
 
 /*todos los enlaces son negrita sin subrayado*/
@@ -179,3 +202,8 @@ a:active {
   color: black;
 }
 
+#botonhome {
+  margin-top: 19%;
+  margin-left: 50%;
+  text-align:center;
+}
